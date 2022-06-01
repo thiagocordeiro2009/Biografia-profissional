@@ -1,0 +1,170 @@
+/* seção de apresentação */
+#presentation .cta:hover{
+  background: blue;
+}
+#presentation .cta{
+  margin: 2px;
+  display: inline-block;
+  padding: 10px 30px;
+  color: lime;
+  background-color: transparent;
+  border: 2px solid blue;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 10px;   
+}
+#presentation h1{
+  color: lime;
+  display: block;
+  font-size: 2em;
+  text-align: center;
+}
+.container h1 {
+  position: relative;
+  animation-name: biografia;
+  animation-duration: 4s;
+}
+  @keyframes biografia {  
+  0%   {color: blue; left:0px; top:0px;}
+  25%  {color: lime; left:200px; top:0px;}
+  50%  {color: blue; left:200px; top:200px;}
+  75%  {color: lime; left:0px; top:200px;}
+  100% {color: blue; left:0px; top:0px;}
+}
+#presentation{
+  background-image: url(./background2.jpg);
+  background-color: black; 
+  background-repeat:  no-repeat;
+   
+}
+/* seção biografia */
+#conten .cta:hover{
+  background-color: blue;
+}
+#conten .cta{
+   display: inline-block;
+    padding: 5px 15px;
+    color: lime;
+    background-color: black;
+    border: 2px solid blue;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;  
+}
+.ctd:hover{
+  background-color: blue;
+}
+.ctd{   
+    display: inline-block;
+    padding: 5px 15px;
+    color: lime;
+    background-color: black;
+    border: 2px solid blue;
+    font-size: 1rem;
+    margin-top: 10px
+}  
+.ctc:hover{
+  background-color: blue;
+}
+.ctc{
+    display: inline-block;
+    padding: 5px 15px;
+    color: lime;
+    background-color: black;
+    border: 2px solid blue;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-top: 10px; 
+}
+#conten p{
+  color: lime;
+  font-size: 1em;
+  font-family: verdana,fantasy;
+  background-color: black;
+  border-radius: 10px;
+  
+}
+#conten{
+  background-image: url(./backgroundbiografia.jpg); 
+}
+#conten img{ 
+ border-radius: 50%;
+ width: 150px; 
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* seção experiêcia */
+.ctb{
+    display: inline-block;
+    padding: 5px 15px;
+    color: lime;
+    background-color: black;
+    border: 2px solid blue;
+    font-size: 1rem;
+    margin-top: 10px 
+}
+.ctb:hover{
+  background-color: blue;
+}
+#experience {
+ background-color: black; 
+ background-image: url(./experiencias.jpg); 
+}
+#experience h1{
+ color: lime;  
+  
+}
+.primeira {
+  margin: 2px;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: black;
+  border: 2px solid blue;
+  color: lime; 
+  width: auto;
+  height: auto;
+}
+.segunda {
+margin: 2px;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: black;
+  border: 2px solid blue;
+  color: lime; 
+  width: auto;
+  height: auto;
+}
+.terceira {
+margin: 2px;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: black;
+  border: 2px solid blue;
+  color: lime; 
+  width: auto;
+  height: auto;
+}
+.quarta {
+  margin: 2px;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: black;
+  border: 2px solid blue;
+  color: lime;
+  width: auto;
+  height: auto;
+}
+.quinta {
+  margin: 2px;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: black;
+  border: 2px solid blue;
+  color: lime; 
+  width: auto;
+  height: auto;
+}
+
+
